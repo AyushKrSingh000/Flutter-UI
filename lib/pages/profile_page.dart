@@ -3,6 +3,9 @@ import 'package:flutter/material.dart';
 import 'package:curved_navigation_bar/curved_navigation_bar.dart';
 import 'package:ui/constants.dart';
 
+// Here I used bottom navigation bar in stack insted of scaffold .If I use bottom navigation bar of scaffold then there is pixel flow error to show the image behind the bottom bar :)  .
+
+//You can refer reference.dart for the same.
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
 
