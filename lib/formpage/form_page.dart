@@ -17,8 +17,6 @@ class _FormPageState extends State<FormPage> with TickerProviderStateMixin {
 
   @override
   Widget build(BuildContext context) {
-    final AnimationController controller = AnimationController(
-        vsync: this, duration: const Duration(milliseconds: 30));
     return Scaffold(
       body: Center(
         child: SizedBox(
